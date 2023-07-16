@@ -18,7 +18,7 @@ const Barf = () => {
           <input
             onChange={(e) => setDays(e.target.value)}
             type="number"
-            placeholder={days}
+            placeholder={"kg"}
           ></input>
         </div>
         <div className="input-wrap">
@@ -27,7 +27,7 @@ const Barf = () => {
             step={0.1}
             onChange={(e) => setPerDay(e.target.value)}
             type="number"
-            placeholder={perDay}
+            placeholder={"kg"}
             defaultValue={perDay}
           ></input>
         </div>
